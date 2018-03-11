@@ -252,5 +252,13 @@ module.exports = {
         "wrap-regex": "error",
         "yield-star-spacing": "error",
         "yoda": "error"
-    }
+    },
+    "overrides": [
+        {
+            "files": "config.js",
+            "rules": {
+                "no-process-env": "off"
+            }
+        }
+    ]
 };
